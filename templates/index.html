@@ -8,17 +8,24 @@
     <script src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&callback=initMap" async defer></script>
 </head>
 <body>
-    <h1>GreenGuard: Environmental Sentinel</h1>
-    
-    <!-- Map container -->
-    <div id="map"></div>
-    
-    <!-- Upload Image and Submit Button -->
-    <input type="file" id="satellite-image" accept="image/*">
-    <button id="detect-pollution">Detect Pollution</button>
-    
-    <p id="pollution-result"></p>
-    
+    <header>
+        <h1>GreenGuard: Environmental Sentinel</h1>
+    </header>
+
+    <main>
+        <section id="map-container">
+            <h2>Pollution Monitoring Map</h2>
+            <div id="map"></div>
+        </section>
+
+        <section id="upload-section">
+            <h2>Upload Satellite Image</h2>
+            <input type="file" id="satellite-image" accept="image/*">
+            <button id="detect-pollution">Detect Pollution</button>
+            <p id="pollution-result"></p>
+        </section>
+    </main>
+
     <script src="/static/js/main.js"></script>
 </body>
 </html>
