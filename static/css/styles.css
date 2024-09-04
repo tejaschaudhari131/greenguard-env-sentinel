@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+#map-container {
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+#upload-section {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#pollution-result {
+    margin-top: 10px;
+}
